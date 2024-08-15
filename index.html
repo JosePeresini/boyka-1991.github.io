@@ -1,373 +1,414 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benjamin Silva</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Benjamin Silva</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="main-header">
+			<nav class="navbar header-nav navbar-expand-lg">
+				<div class="container">
+					<a href="#" class="navbar-brand">
+						<h4 class="mb-0">
+							Benjamin <span class="text-primary">Silva</span>
+						</h4>
+					</a>
+					<!-- Menu -->
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="navbar-collapse-toggle"
+					>
+						<ul class="navbar-nav mx-auto">
+							<li>
+								<a href="#home" class="nav-link">Home</a>
+							</li>
+							<li>
+								<a href="#sobremi" class="nav-link">Sobre mi</a>
+							</li>
+							<li>
+								<a href="#estudios" class="nav-link">Estudios</a>
+							</li>
+							<li>
+								<a href="#portafolio" class="nav-link">Portafolio</a>
+							</li>
+							<li>
+								<a href="#experiencia" class="nav-link">Experiencia</a>
+							</li>
+							<li>
+								<a href="fork.html" class="nav-link">Fork</a>
+							</li>
+						</ul>
+					</div>
 
-    <!-- Header -->
-     <header class="main-header">
-        <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container">
-                <a href="#" class="navbar-brand">
-                    <h4 class="mb-0">Benjamin <span class="text-primary">Silva</span></h4>
+					<!-- Boton -->
+					<div class="ms-auto d-none d-lg-block">
+						<a
+							class="colored-btn"
+							href="https://www.instagram.com/11.deoctubre/"
+							>Contactame</a
+						>
+					</div>
 
-                </a>
-                <!-- Menu -->
-                 <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
-                    <ul class="navbar-nav mx-auto">
-                        <li>
-                            <a href="#home" class="nav-link">Home</a>
-                        </li>
-                        <li>
-                            <a href="#sobremi" class="nav-link">Sobre mi</a>
-                        </li>
-                        <li>
-                            <a href="#estudios" class="nav-link">Estudios</a>
-                        </li>
-                        <li>
-                            <a href="#portafolio" class="nav-link">Portafolio</a>
-                        </li>
-                        <li>
-                            <a href="#experiencia" class="nav-link">Experiencia</a>
-                        </li>
-                        <li>
-                            <a href="fork.html" class="nav-link">Fork</a>
-                        </li>
+					<button
+						class="navbar-toggler collapsed"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbar-collapse-toggle"
+					>
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</nav>
+		</header>
 
-                    </ul>
-                    
-                 </div>
+		<!-- main -->
+		<main>
+			<!-- home section -->
+			<section id="home" class="home-section bg-gray">
+				<div class="container">
+					<div class="anim-elements">
+						<div class="anim-element"><i class="bx bxl-html5"></i></div>
+						<div class="anim-element"><i class="bx bxl-ccs3"></i></div>
+						<div class="anim-element"><i class="bx bxl-react"></i></div>
+						<div class="anim-element"><i class="bx bxl-android"></i></div>
+						<div class="anim-element"><i class="bx bxl-apple"></i></div>
+					</div>
+					<div class="row gy-5 align-items-center">
+						<div class="col-lg-6">
+							<div class="home-intro text-center text-lg-start">
+								<h6>Hola, Me llamo Benjamin</h6>
+								<h1>yo soy, <span>Analista Programador</span></h1>
+								<p>Soy de Santiago/Chile.</p>
+								<a href="#sobremi" class="colored-btn mt-1"> Sobre mi </a>
+							</div>
+						</div>
+						<div class="col-lg-6 pt-4 pt-lg-0">
+							<div class="home-image text-center">
+								<img src="assets/img/img1.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                 <!-- Boton -->
-                 <div class="ms-auto d-none d-lg-block">
-                    <a class="colored-btn" href="https://www.instagram.com/11.deoctubre/">Contactame</a>
-                 </div>
+			<!-- section sobre mi -->
 
-                 <button class="navbar-toggler collapsed" type="button"
-                 data-bs-toggle="collapse"
-                 data-bs-target="#navbar-collapse-toggle">
-                 <span></span>
-                 <span></span>
-                 <span></span>
-                
-                </button>
+			<section id="sobremi" class="section">
+				<div class="container">
+					<div class="row gy-5 align-items-center">
+						<div class="col-lg-6 text-center">
+							<img src="assets/img/foto2.jpg" alt="" />
+						</div>
+						<div class="col-lg-6 ps-lg-5">
+							<div class="sobremi-text">
+								<h3 class="h1 mb-3 text-dark fw-semibold">
+									Analista Programador computacional, Data Science y
+									Desarrollador.
+								</h3>
+								<p>
+									Mi nombre es Benjamin Silva, tengo 32 años, Me desempeño en el
+									area de la informatica, titulado como Analista Programador
+									Computacional, certificado como Desarrollador, Data Science,
+									PHP. Egresado hace mas de 4 años y con ganas de comerme el
+									mundo tecnologico.
+								</p>
+								<div class="row pt-2">
+									<div class="col-6 col-md-4">
+										<h5 class="text-primary fw-semibold fs-4 mb-0">200+</h5>
+										<span class="text-dark">Proyectos Terminados</span>
+									</div>
+									<div class="col-6 col-md-4">
+										<h5 class="text-primary fw-semibold fs-4 mb-0">120+</h5>
+										<span class="text-dark">Clientes Satisfechos</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-            </div>
+			<!-- section estudios -->
+			<section
+				id="estudios"
+				class="section bg-gray"
+				style="
+					background-image: url(assets/img/foto3.jpeg);
+					background-repeat: no-repeat;
+					background-size: cover;
+				"
+			>
+				<div class="container">
+					<div class="section-heading">
+						<h3>Mis Estudios</h3>
+					</div>
+					<div class="row gy-4">
+						<div class="col-md-6">
+							<div class="fea bg-1">
+								<div class="icon"><i class="bx bx-desktop"></i></div>
+								<div class="content">
+									<h5>Analista Programador</h5>
+									<p>A Donde? Demasiados lorem jajaja</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-2">
+								<div class="icon"><i class="bx bx-desktop"></i></div>
+								<div class="content">
+									<h5>Data Science</h5>
+									<p>Seguro? No vi ningun certificado</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-3">
+								<div class="icon"><i class="bx bxl-java"></i></div>
+								<div class="content">
+									<h5>Full Stack JS</h5>
+									<p>Eso no te lo niego estamos estudiando lo mismo</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-4">
+								<div class="icon"><i class="bx bxl-java"></i></div>
+								<div class="content">
+									<h5>Certificado Java Script</h5>
+									<p>Nunca vi nada!</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-5">
+								<div class="icon"><i class="bx bx-mobile"></i></div>
+								<div class="content">
+									<h5>Desarrollador Mobile</h5>
+									<p>Responsive Design?</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-6">
+								<div class="icon"><i class="bx bx-globe"></i></div>
+								<div class="content">
+									<h5>Desarrollador Web</h5>
+									<p>Estamos por igual?</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        </nav>
+			<!-- section Portafolio -->
 
-     </header>
+			<section id="portafolio" class="section bg-gray">
+				<div class="container">
+					<div class="section-heading">
+						<h3>Mis Proyectos</h3>
+					</div>
+					<div class="portafolio-box">
+						<div
+							class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center"
+						>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-img">
+									<img src="assets/img/image.png" alt="" />
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-text">
+									<span>Landing Page</span>
+									<h4>Sitio Web, Full CSS/HTML</h4>
+									<p>Cual seria el proyecto?</p>
+									<a href="#" class="colored-btn mt-1">Ver Proyecto</a>
+								</div>
+							</div>
+						</div>
 
-     <!-- main -->
-      <main>
+						<div
+							class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse"
+						>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-img">
+									<img src="assets/img/proyecto2.png" alt="" />
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-text">
+									<span>Bootstrap</span>
+									<h4>Web Site BOOSTRAP/CSS/HTML</h4>
+									<p>Cual?</p>
+									<a href="#" class="colored-btn mt-1">Ver Proyecto</a>
+								</div>
+							</div>
+						</div>
 
-        <!-- home section -->
-         <section id="home" class="home-section bg-gray">
-            <div class="container">
-                <div class="anim-elements">
-                    <div class="anim-element"><i class="bx bxl-html5"></i></div>
-                    <div class="anim-element"><i class="bx bxl-ccs3"></i></div>
-                    <div class="anim-element"><i class="bx bxl-react"></i></div>
-                    <div class="anim-element"><i class="bx bxl-android"></i></div>
-                    <div class="anim-element"><i class="bx bxl-apple"></i></div>
-                </div>
-                <div class="row gy-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="home-intro text-center text-lg-start">
-                            <h6>Hola, Me llamo Benjamin</h6>
-                            <h1>yo soy, <span>Analista Programador</span></h1>
-                            <p>Soy de Santiago/Chile.</p>
-                            <a href="#sobremi" class="colored-btn mt-1">
-                                Sobre mi
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0">
-                        <div class="home-image text-center">
-                            <img src="assets/img/img1.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+						<div
+							class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center"
+						>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-img">
+									<img src="assets/img/proyecto3.png" alt="" />
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-text">
+									<span>Iguana Page</span>
+									<h4>Sitio Web, FLEX/CSS/HTML</h4>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Laudantium dolores quibusdam eligendi perspiciatis quisquam
+										ullam?
+									</p>
+									<a href="#" class="colored-btn mt-1">Ver Proyecto</a>
+								</div>
+							</div>
+						</div>
 
-         </section>
+						<div
+							class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse"
+						>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-img">
+									<img src="assets/img/proyecto4.png" alt="" />
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5">
+								<div class="portafolio-text">
+									<span>CV PERSONAL</span>
+									<h4>Web Site, CSS/HTML</h4>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Laudantium dolores quibusdam eligendi perspiciatis quisquam
+										ullam?
+									</p>
+									<a href="#" class="colored-btn mt-1">Ver Proyecto</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-         <!-- section sobre mi -->
+			<!-- section experiencia -->
+			<section
+				id="experiencia"
+				class="section bg-gray"
+				style="
+					background-image: url(assets/img/experiencia.jpg.crdownload);
+					background-repeat: no-repeat;
+					background-size: cover;
+				"
+			>
+				<div class="container">
+					<div class="section-heading">
+						<h3>Experiencia Laboral</h3>
+					</div>
+					<div class="row gy-4">
+						<div class="col-md-6">
+							<div class="fea bg-1">
+								<div class="icon"><i class="bx bx-desktop"></i></div>
+								<div class="content">
+									<h5>TI</h5>
+									<p>
+										Encargado departamente de TI en restaurante "Los Buenos
+										Muchachos"
+									</p>
+									<p>2019-2021</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-2">
+								<div class="icon"><i class="bx bx-mobile"></i></div>
+								<div class="content">
+									<h5>Colaborador HomeCenter</h5>
+									<p>
+										Colaborador en proyecto de aplicacion mobile, actualmente
+										esta vigente la aplicacion.
+									</p>
+									<p>2020-2020</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-3">
+								<div class="icon"><i class="bx bxl-java"></i></div>
+								<div class="content">
+									<h5>Analista Programador Banco BCI</h5>
+									<p>
+										Analista programador enfocado en el area de analisis de
+										datos y soporte de usuarios.
+									</p>
+									<p>2020-2023</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fea bg-4">
+								<div class="icon"><i class="bx bxl-java"></i></div>
+								<div class="content">
+									<h5>Encargado Departamento TI</h5>
+									<p>
+										Jefe del departamento de TI de la empresa "BRIMAT", soporte
+										hosting y web.
+									</p>
+									<p>2023-2024</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-         <section id="sobremi" class="section">
-            <div class="container">
-            <div class="row gy-5 align-items-center">
-                <div class="col-lg-6 text-center">
-                    <img src="assets/img/foto2.jpg" alt="">
-                </div>
-                <div class="col-lg-6 ps-lg-5">
-                    <div class="sobremi-text">
-                        <h3 class="h1 mb-3 text-dark fw-semibold"> Analista Programador computacional, Data Science y Desarrollador.</h3>
-                        <p>Mi nombre es Benjamin Silva, tengo 32 años,
-                            Me desempeño en el area de la informatica, titulado como Analista Programador
-                            Computacional, certificado como Desarrollador, Data Science, PHP. Egresado hace mas de 4 años y con ganas de comerme el mundo tecnologico.</p>
-                <div class="row pt-2">
-                    <div class="col-6 col-md-4">
-                        <h5 class="text-primary fw-semibold fs-4 mb-0">200+</h5>
-                        <span class="text-dark">Proyectos Terminados</span>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <h5 class="text-primary fw-semibold fs-4 mb-0">120+</h5>
-                        <span class="text-dark">Clientes Satisfechos</span>
-                </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-         </section>
+			<!-- footer -->
 
-         <!-- section estudios -->
-          <section id="estudios" class="section bg-gray" style="background-image: url(assets/img/foto3.jpeg);
-          background-repeat: no-repeat; background-size: cover;">
-          <div class="container">
-            <div class="section-heading">
-                <h3>Mis Estudios</h3>
-            </div>
-            <div class="row gy-4">
-                <div class="col-md-6 ">
-                    <div class="fea bg-1">
-                        <div class="icon"><i class="bx bx-desktop"></i></div>
-                        <div class="content">
-                            <h5>Analista Programador</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Quisquam dolorem minima dignissimos! Consequuntur ut obcaecati qui dignissimos rerum provident ab?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="fea bg-2">
-                        <div class="icon"><i class="bx bx-desktop"></i></div>
-                        <div class="content">
-                            <h5>Data Science</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Quisquam dolorem minima dignissimos! Consequuntur ut obcaecati qui dignissimos rerum provident ab?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="fea bg-3">
-                        <div class="icon"><i class="bx bxl-java"></i></div>
-                        <div class="content">
-                            <h5>Full Stack JS</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Quisquam dolorem minima dignissimos! Consequuntur ut obcaecati qui dignissimos rerum provident ab?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="fea bg-4">
-                        <div class="icon"><i class="bx bxl-java"></i></div>
-                        <div class="content">
-                            <h5>Certificado Java Script</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Quisquam dolorem minima dignissimos! Consequuntur ut obcaecati qui dignissimos rerum provident ab?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="fea bg-5">
-                        <div class="icon"><i class="bx bx-mobile"></i></div>
-                        <div class="content">
-                            <h5>Desarrollador Mobile</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Quisquam dolorem minima dignissimos! Consequuntur ut obcaecati qui dignissimos rerum provident ab?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="fea bg-6">
-                        <div class="icon"><i class="bx bx-globe"></i></div>
-                        <div class="content">
-                            <h5>Desarrollador Web</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                             Quisquam dolorem minima dignissimos! Consequuntur ut obcaecati qui dignissimos rerum provident ab?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-          
-        </section>
+			<footer class="footer">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 py-2">
+							<div class="nav justify-content-center justify-content-md-start">
+								<a href="#"><i class="bx bxl-facebook"></i></a>
+								<a href="#"><i class="bx bxl-twitter"></i></a>
+								<a href="#"><i class="bx bxl-instagram"></i></a>
+								<a href="#"><i class="bx bxl-linkedin"></i></a>
+								<a href="#"><i class="bx bxl-pinterest"></i></a>
+							</div>
+						</div>
 
-        <!-- section Portafolio -->
+						<div class="col-md-6 py-2 text-center text-md-end">
+							<p class="m-0">© Todos los derechos reservados | Desafio Latam</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</main>
 
-        <section id="portafolio" class="section bg-gray">
-            <div class="container">
-                <div class="section-heading">
-                    <h3>Mis Proyectos</h3>
-                </div>
-            <div class="portafolio-box">
-                <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-img">
-                            <img src="assets/img/image.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-text">
-                            <span>Landing Page</span>
-                            <h4>Sitio Web, Full CSS/HTML</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores 
-                            quibusdam eligendi perspiciatis quisquam ullam?</p>
-                            <a href="#" class="colored-btn mt-1">Ver Proyecto</a>
-                        </div>
-                    </div>
-                </div>
+		<!-- script para bootstrap -->
 
-                <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-img">
-                            <img src="assets/img/proyecto2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-text">
-                            <span>Bootstrap</span>
-                            <h4>Web Site BOOSTRAP/CSS/HTML</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores 
-                            quibusdam eligendi perspiciatis quisquam ullam?</p>
-                            <a href="#" class="colored-btn mt-1">Ver Proyecto</a>
-                        </div>
-                    </div>
-                </div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
 
-                <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-img">
-                            <img src="assets/img/proyecto3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-text">
-                            <span>Iguana Page</span>
-                            <h4>Sitio Web, FLEX/CSS/HTML</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores 
-                            quibusdam eligendi perspiciatis quisquam ullam?</p>
-                            <a href="#" class="colored-btn mt-1">Ver Proyecto</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row gx-3 gy-4 pb-3 mb-5 pb-lg-3 mb-lg-3 justify-content-around align-items-center flex-row-reverse">
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-img">
-                            <img src="assets/img/proyecto4.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <div class="portafolio-text">
-                            <span>CV PERSONAL</span>
-                            <h4>Web Site, CSS/HTML</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores 
-                            quibusdam eligendi perspiciatis quisquam ullam?</p>
-                            <a href="#" class="colored-btn mt-1">Ver Proyecto</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            </div>
-        </section>
-
-        <!-- section experiencia -->
-        <section id="experiencia" class="section bg-gray" style="background-image: url(assets/img/experiencia.jpg.crdownload);
-        background-repeat: no-repeat; background-size: cover;">
-        <div class="container">
-          <div class="section-heading">
-              <h3>Experiencia Laboral</h3>
-          </div>
-          <div class="row gy-4">
-              <div class="col-md-6 ">
-                  <div class="fea bg-1">
-                      <div class="icon"><i class="bx bx-desktop"></i></div>
-                      <div class="content">
-                          <h5>TI</h5>
-                          <p>Encargado departamente de TI en restaurante "Los Buenos Muchachos"</p>
-                          <p>2019-2021</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6 ">
-                  <div class="fea bg-2">
-                      <div class="icon"><i class="bx bx-mobile"></i></div>
-                      <div class="content">
-                          <h5>Colaborador HomeCenter</h5>
-                          <p>Colaborador en proyecto de aplicacion mobile, actualmente esta vigente la aplicacion.</p>
-                          <p>2020-2020</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6 ">
-                  <div class="fea bg-3">
-                      <div class="icon"><i class="bx bxl-java"></i></div>
-                      <div class="content">
-                          <h5>Analista Programador Banco BCI</h5>
-                          <p>Analista programador enfocado en el area de analisis de datos y soporte de usuarios.</p>
-                          <p>2020-2023</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-6 ">
-                  <div class="fea bg-4">
-                      <div class="icon"><i class="bx bxl-java"></i></div>
-                      <div class="content">
-                          <h5>Encargado Departamento TI</h5>
-                          <p>Jefe del departamento de TI de la empresa "BRIMAT", soporte hosting y web.</p>
-                          <p>2023-2024</p>
-                      </div>
-                  </div>
-              </div>
-              
-          </div>
-        </div>
-        
-      </section>
-
-        <!-- footer -->
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 py-2">
-                        <div class="nav justify-content-center justify-content-md-start">
-                            <a href="#"><i class="bx bxl-facebook"></i></a>
-                            <a href="#"><i class="bx bxl-twitter"></i></a>
-                            <a href="#"><i class="bx bxl-instagram"></i></a>
-                            <a href="#"><i class="bx bxl-linkedin"></i></a>
-                            <a href="#"><i class="bx bxl-pinterest"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 py-2 text-center text-md-end">
-                        <p class="m-0">© Todos los derechos reservados | Desafio Latam</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-      </main>
-
-
-
-
-    <!-- script para bootstrap -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    
-</body>
+		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	</body>
 </html>
